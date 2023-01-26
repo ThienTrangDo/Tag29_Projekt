@@ -4,7 +4,7 @@ Aufgabe:
 Erstelle (in der Datei Katze.kt) eine Katzen-Klasse.
  */
 
-class Katze (name: String, fellfarbe: String) {
+class Katze (var name: String, var fellfarbe: String) {
     fun meow (){
         println("Die Katze miaut:")
         println("Meow, meow.")

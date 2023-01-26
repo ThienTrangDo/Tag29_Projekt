@@ -4,11 +4,9 @@ Schalte den Computer dann an, versende eine E-Mail und schalte ihn wieder aus.
  */
 
 fun main (){
-    var computer: Computer = Computer(false)
-    println(computer.on)
+    var computer= Computer(false)
     computer.pressOnButton()
-    println(computer.on)
     computer.sendEmail()
     computer.pressOffButton()
-    println(computer.on)
+
 }

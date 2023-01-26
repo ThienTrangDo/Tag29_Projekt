@@ -3,6 +3,6 @@ Erstelle in der main()-Funktion der Aufgabendatei Main.kt eine Person-Instanz mi
 Lass die Person hallo sagen.
  */
 fun main (){
-    var person: Person = Person("Sarah", 6738627, 23)
+    var person= Person("Sarah", 6738627, 23)
     person.sayHello()
 }

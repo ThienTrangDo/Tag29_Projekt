@@ -1,6 +1,6 @@
 fun main (){
-    var hund: Hund = Hund()
-    var katze: Katze = Katze()
+    var hund = Hund()
+    var katze = Katze()
 
     hund.makeNoise()
     katze.makeNoise()

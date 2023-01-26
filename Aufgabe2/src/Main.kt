@@ -4,6 +4,6 @@ Lass die Katze miauen.
  */
 
 fun main (){
-    var katze: Katze = Katze("Mautzi", "Schwarz")
+    var katze = Katze("Mautzi", "Schwarz")
     katze.meow()
 }

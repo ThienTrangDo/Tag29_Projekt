@@ -4,7 +4,7 @@ Aufgabe:
 Erstelle (in der Datei Hund.kt) eine Hunde-Klasse.
  */
 
-class Hund (name: String, race: String){
+class Hund (var name: String, var race: String){
     fun bark(){
         println("Wuff, wuff!")
     }

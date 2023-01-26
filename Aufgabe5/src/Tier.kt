@@ -1,5 +1,5 @@
 open class Tier {
     open fun makeNoise(){
-        println("Tiergeräusch:")
+        println("Animal noise:")
     }
 }

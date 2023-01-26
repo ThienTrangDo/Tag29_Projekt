@@ -21,14 +21,14 @@ class Computer (var on: Boolean){
     fun pressOnButton(){
         if (!on){
             on = true
-            return pressOnButton()
+            println("Computer ist jetzt an.")
         }
     }
 
     fun pressOffButton(){
         if (on){
             on = false
-            return pressOffButton()
+            println("Computer ist jetzt aus.")
         }
     }
 
